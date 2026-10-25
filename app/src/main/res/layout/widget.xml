@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/w_root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center" android:padding="12dp" android:background="#E61B5E20">
+    <TextView android:id="@+id/w_steps" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="0 pasos" android:textSize="22sp" android:textStyle="bold" android:textColor="#FFFFFF" />
+    <TextView android:id="@+id/w_sub" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textSize="12sp" android:textColor="#CCFFFFFF" />
+</LinearLayout>
